@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Programación WEB</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body style="background-color: rgb(166, 209, 187);">
+    <div class="row text-center align-items-center "  style="background-color: black; color: white;">
+        <div class="col">
+            <h1>
+                HOJA DE VIDA
+            </h1>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row text-center align-items-center">
+            <div class="col">
+                <img src="img/alex-vilcacundo.jpg" class="card-img-top " alt=" Alex Vilcacundo" style="width: 12rem;">
+            </div>
+        </div>
+        <br>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#nombreCompleto">
+                        Nombre Completo
+                    </a>
+                </div>
+                <div id="nombreCompleto" class="collapse " data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Alex Manuel Vilcacundo Albarracín
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#edad">
+                        Edad
+                    </a>
+                </div>
+                <div id="edad" class="collapse " data-bs-parent="#accordion">
+                    <div class="card-body">
+                        19 años
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#ciudad">
+                        Ciudad
+                    </a>
+                </div>
+                <div id="ciudad" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Saquisilí
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#estadoCivil">
+                        Estado Civil
+                    </a>
+                </div>
+                <div id="estadoCivil" class="collapse " data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Soltero
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#ocupacion">
+                        Ocupación
+                    </a>
+                </div>
+                <div id="ocupacion" class="collapse " data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Estudiante
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#carrera">
+                        Carrera
+                    </a>
+                </div>
+                <div id="carrera" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Ingenieria de Software
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#lenguajeProgramacion">
+                        Lenguajes de Programacion
+                    </a>
+                </div>
+                <div id="lenguajeProgramacion" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">C++</li>
+                            <li class="list-group-item">Java</li>
+                            <li class="list-group-item">Phyton</li>
+                            <li class="list-group-item">SQL</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn link-primary" data-bs-toggle="collapse" href="#pasatiempos">
+                        Pasatiempos
+                    </a>
+                </div>
+                <div id="pasatiempos" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Tocar guitarra y escuchar música
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <a href="index.html" class="btn btn-primary">Ir al Inicio</a>
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
